@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require_relative 't9_sms'
+require_relative '../lib/t9_sms'
 
 puts "Please enter the number to be decoded \n"
 input = gets.chomp

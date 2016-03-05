@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 gem 'minitest', '>= 5.0.0'
 require 'minitest/autorun'
-require_relative 't9_sms'
+require_relative '../lib/t9_sms'
 
 class T9SMSTest < Minitest::Test
   def test_decode_2
