@@ -50,11 +50,3 @@ class T9SMS
   end
 end
 
-puts "Please enter the number to be decoded \n"
-input = gets.chomp
-
-val = T9SMS.new(input).decode
-
-puts ".... \n"
-puts "Your string is #{val}"
-
